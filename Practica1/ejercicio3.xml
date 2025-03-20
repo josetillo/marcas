@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Jose Aranega Fernandez
+Curso: 1 DAW 
+Fecha: 17/03/25 
+Ejercicio: Ejercicio 1 
+-->
+<!--Libros recomendados-->
+<libros>
+    <libro titulo="Cien años de soledad" autor="Gabriel García Márquez" año="1967" />
+    <libro titulo="1984" autor="George Orwell" año="1949" />
+    <libro titulo="El principito" autor="Antoine de Saint-Exupéry" año="1943" />
+</libros>
