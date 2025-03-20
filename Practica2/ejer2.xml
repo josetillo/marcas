@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Jose Aranega Fernandez
+Curso: 1 DAW 
+Fecha: 17/03/25 
+Ejercicio: Ejercicio 1 
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<futbol>
+    <!-- Información del primer equipo -->
+    <equipo>
+        <nombre>FC Barcelona</nombre>
+        <ciudad>Barcelona</ciudad>
+        <entrenador></entrenador>
+        <jugadores>
+            <!-- Primer jugador del FC Barcelona -->
+            <jugador posicion="delantero">
+                <nombre>Robert Lewandowski</nombre>
+                <nacionalidad>Polaco</nacionalidad>
+            </jugador>
+            <!-- Segundo jugador del FC Barcelona -->
+            <jugador posicion="medio">
+                <nombre>Frenkie de Jong</nombre>
+                <nacionalidad>Neerlandés</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+    
+    <!-- Información del segundo equipo -->
+    <equipo>
+        <nombre>Manchester City</nombre>
+        <ciudad>Mánchester</ciudad>
+        <entrenador></entrenador>
+        <jugadores>
+            <!-- Primer jugador del Manchester City -->
+            <jugador posicion="portero">
+                <nombre>Ederson Moraes</nombre>
+                <nacionalidad>Brasileño</nacionalidad>
+            </jugador>
+            <!-- Segundo jugador del Manchester City -->
+            <jugador posicion="defensa">
+                <nombre>Rúben Dias</nombre>
+                <nacionalidad>Portugués</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+</futbol>

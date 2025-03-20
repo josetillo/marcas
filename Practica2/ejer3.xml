@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Jose Aranega Fernandez
+Curso: 1 DAW 
+Fecha: 17/03/25 
+Ejercicio: Ejercicio 1 
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<recetas>
+    <!-- Inicio -->
+    <receta>
+        <!-- Nombre de la receta -->
+        <nombre>Sopa de cebolla</nombre>
+        
+        <!-- Número de comensales para los que es la receta -->
+        <comensales>4</comensales>
+        
+        <!-- Ingredientes -->
+        <ingredientes>
+            <!-- Cada ingrediente lleva su nombre y cantidad -->
+            <ingrediente>
+                <nombre>cebollas</nombre>
+                <cantidad>1 kg</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>caldo de carne</nombre>
+                <cantidad>2 litros</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>mantequilla</nombre>
+                <cantidad>100 gr</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>harina</nombre>
+                <cantidad>1 cucharada</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>queso emmental</nombre>
+                <cantidad>100 gr</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>pan tostado en rebanadas</nombre>
+                <cantidad>al gusto</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>tomillo</nombre>
+                <cantidad>al gusto</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>hoja de laurel</nombre>
+                <cantidad>1 hoja</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>pimienta</nombre>
+                <cantidad>al gusto</cantidad>
+            </ingrediente>
+        </ingredientes>
+        
+        <!-- Proceso para preparar la receta -->
+        <proceso>
+            <paso>Pelar y partir las cebollas en rodajas finas.</paso>
+            <paso>Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que estén transparentes sin dorarse.</paso>
+            <paso>Añadir la harina sin dejar de remover.</paso>
+            <paso>Ponerlo en una cazuela con el caldo, el tomillo y el laurel.</paso>
+            <paso>Dejar cocer a fuego lento durante unos 15 minutos.</paso>
+            <paso>Poner las rebanadas de pan encima, espolvorear el queso y gratinar al horno.</paso>
+        </proceso>
+    </receta>
+</recetas>

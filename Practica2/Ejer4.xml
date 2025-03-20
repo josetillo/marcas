@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Jose Aranega Fernandez
+Curso: 1 DAW 
+Fecha: 17/03/25 
+Ejercicio: Ejercicio 1 -->
+<modulo>
+    <!-- Información de la asignatura -->
+    <nombre>Lenguajes de Marcas</nombre>
+    <horas_semanales>4</horas_semanales>
+    <caracter>obligatorio</caracter>
+    <fecha_inicio>2023-09-15</fecha_inicio>
+    <fecha_fin>2024-06-22</fecha_fin>
+    <!-- Alumnos matriculados -->
+    <alumnos>
+        <!-- Primer alumno -->
+        <alumno>
+            <nombre>Ana Fernández Gutiérrez</nombre>
+            <dni>51623487V</dni>
+            <telefono>666544566</telefono>
+            <email>anafernandez@gmail.com</email>
+            <direccion>
+                <calle>C/ Amatista, 14</calle>
+                <codigo_postal>28905</codigo_postal>
+                <ciudad>Getafe</ciudad>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <faltas_asistencia>0</faltas_asistencia>
+            <nota></nota>
+        </alumno>
+        <!-- Segundo alumno -->
+        <alumno>
+            <nombre>Carlos López Sánchez</nombre>
+            <dni>52369874B</dni>
+            <telefono>666455477</telefono>
+            <email>carloslopez@gmail.com</email>
+            <direccion>
+                <calle>C/ Ópalo, 15</calle>
+                <codigo_postal>28905</codigo_postal>
+                <ciudad>Getafe</ciudad>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <faltas_asistencia>0</faltas_asistencia> 
+            <nota>apto</nota> 
+        </alumno>
+    </alumnos>
+</modulo>
