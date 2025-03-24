@@ -1,0 +1,34 @@
+<!--
+Nombre: Jose Aranega Fernandez
+Curso: 1 DAW 
+Fecha: 17/03/25 
+Ejercicio: Ejercicio 1 
+-->
+
+<html xmlns:book="http://www.ejemplo.com/book">
+  <head>
+    <title>Book Review</title>
+  </head>
+  <body>
+    <!-- Inicio de la reseña del libro -->
+    <bookreview>
+      <h1>Introducción a XML</h1>
+      <!-- Tabla con información del libro -->
+      <table border="1">
+        <tr align="center">
+          <td>Author</td>
+          <td>Price</td>
+          <td>Pages</td>
+          <td>Date</td>
+        </tr>
+        <tr align="left">
+          <td><book:author>Simon St. Laurent</book:author></td>
+          <td><book:price>31.98</book:price></td>
+          <td><book:pages>352</book:pages></td>
+          <td><book:date>1998/01</book:date></td>
+        </tr>
+      </table>
+    </bookreview>
+    <!-- Fin de la reseña -->
+  </body>
+</html>
