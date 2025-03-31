@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Jose Aranega Fernandez
+Curso: 1 DAW 
+Fecha: 17/03/25 
+Ejercicio: Ejercicio 1 
+-->
+<!DOCTYPE liga SYSTEM "factura.dtd">
+<factura numero="12345" fecha="2025-03-31">
+    <datos-emisor>
+        <nombre>Librería Central</nombre>
+        <cif>LC-12345678</cif>
+        <telefono>+34 912345678</telefono>
+    </datos-emisor>
+    <datos-cliente>
+        <nombre>Biblioteca Municipal</nombre>
+        <cif>BM-87654321</cif>
+        <telefono>+34 987654321</telefono>
+    </datos-cliente>
+    <detalle-factura importe="89.50">
+        <linea codigo-articulo="A001" tipo="Libro">
+            <descripcion>El Quijote</descripcion>
+            <cantidad>2</cantidad>
+            <pvp>25.00</pvp>
+        </linea>
+        <linea codigo-articulo="A002" tipo="DVD">
+            <descripcion>Historia del Arte</descripcion>
+            <cantidad>1</cantidad>
+            <pvp>19.50</pvp>
+            <oferta/>
+        </linea>
+        <linea codigo-articulo="A003" tipo="Varios">
+            <descripcion>Marcapáginas</descripcion>
+            <cantidad>5</cantidad>
+            <pvp>2.50</pvp>
+        </linea>
+    </detalle-factura>
+</factura>
