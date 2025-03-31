@@ -1,0 +1,12 @@
+<!DOCTYPE EquiposNBA [
+    <!ELEMENT EquiposNBA (equipo | nombre)+>
+    
+    <!ELEMENT nombre (#PCDATA)>
+    
+    <!ELEMENT equipo (titulos, posicion, quinteto)>
+    <!ATTLIST equipo conferencia CDATA #REQUIRED>
+    
+    <!ELEMENT titulos (#PCDATA)>
+    <!ELEMENT posicion (#PCDATA)>
+    <!ELEMENT quinteto (#PCDATA)>
+]>

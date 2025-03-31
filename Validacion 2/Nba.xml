@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Jose Aranega Fernandez
+Curso: 1 DAW 
+Fecha: 17/03/25 
+Ejercicio: Ejercicio 1 
+-->
+<!-- Ciudades, continentes e informacion-->
+<EquiposNBA>
+    <nombre>Los Angeles Lakers</nombre>
+    <nombre>Boston Celtics</nombre>
+    <nombre>Chicago Bulls</nombre>
+    
+    <equipo conferencia="Oeste">
+        <titulos>17</titulos>
+        <posicion>3</posicion>
+        <quinteto>LeBron James, Anthony Davis, D'Angelo Russell, Austin Reaves, Jarred Vanderbilt</quinteto>
+    </equipo>
+    
+    <equipo conferencia="Este">
+        <titulos>17</titulos>
+        <posicion>1</posicion>
+        <quinteto>Jayson Tatum, Jaylen Brown, Marcus Smart, Al Horford, Robert Williams III</quinteto>
+    </equipo>
+    
+    <equipo conferencia="Este">
+        <titulos>6</titulos>
+        <posicion>5</posicion>
+        <quinteto>Zach LaVine, DeMar DeRozan, Nikola Vucevic, Lonzo Ball, Patrick Williams</quinteto>
+    </equipo>
+</EquiposNBA>
