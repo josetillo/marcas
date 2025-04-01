@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda [
+    <!ELEMENT agenda (contacto*)> 
+    <!ELEMENT contacto (nombre, telefonofijo*, telefonoMovil+)> 
+    <!ELEMENT nombre (#PCDATA)> 
+    <!ELEMENT telefonofijo (#PCDATA)> 
+    <!ELEMENT telefonoMovil (#PCDATA)> 
+]>
+
+<agenda>
+    <contacto>
+        <nombre>Ayuntamiento</nombre>
+        <telefonofijo>010</telefonofijo>
+        <telefonoMovil>N/A</telefonoMovil> <!-- Obligatorio -->
+    </contacto>
+    <contacto>
+        <nombre>Emergencias</nombre>
+        <telefonofijo>112 (Unión Europea)</telefonofijo>
+        <telefonofijo>911 (Estados Unidos)</telefonofijo>
+        <telefonoMovil>Desconocido</telefonoMovil>
+    </contacto>
+</agenda>
