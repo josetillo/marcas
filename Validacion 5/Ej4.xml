@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Jose Aranega Fernandez
+Curso: 1 DAW 
+Fecha: 17/03/25 
+Ejercicio: Ejercicio 1 
+-->
+
+<!DOCTYPE vuelos [
+    <!ELEMENT vuelos (vuelo+)> 
+    <!ELEMENT vuelo (origen, destino)> 
+    <!ELEMENT origen (#PCDATA)> 
+    <!ELEMENT destino (#PCDATA)>
+]>
+
+<vuelos>
+    <vuelo>
+        <origen>Valencia (VLC)</origen>
+        <destino>Londres Heathrow (LHR)</destino>
+    </vuelo>
+    <vuelo>
+        <origen>París Charles de Gaulle (CDG)</origen>
+        <destino>Berlin Schönefeld (SFX)</destino>
+    </vuelo>
+</vuelos>
