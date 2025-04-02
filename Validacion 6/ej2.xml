@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Jose Aranega Fernandez
+Curso: 1 DAW 
+Fecha: 17/03/25 
+Ejercicio: Ejercicio 1 
+-->
+<!DOCTYPE pelicula [
+    <!ELEMENT pelicula EMPTY>
+    <!ATTLIST pelicula titulo CDATA #IMPLIED>
+    <!ATTLIST pelicula genero CDATA #IMPLIED>
+]>
+<pelicula titulo="La diligencia" genero="oeste" />

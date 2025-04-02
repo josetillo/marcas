@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Jose Aranega Fernandez
+Curso: 1 DAW 
+Fecha: 17/03/25 
+Ejercicio: Ejercicio 1 
+-->
+<!DOCTYPE futbol [
+    <!ELEMENT futbol (jugador*)>
+    <!ELEMENT jugador EMPTY>
+    <!ATTLIST jugador nombre NMTOKENS #REQUIRED>
+    <!ATTLIST jugador codigo ID #REQUIRED>
+]>
+<futbol>
+    <jugador nombre="Alfredo Di Stefano" codigo="j1"/>
+    <jugador nombre="Edson Arantes do Nascimento Pelé" codigo="j2"/>
+    <jugador nombre="Diego Armando Maradona" codigo="j3"/>
+    <jugador nombre="Johan Cruyff" codigo="j4"/>
+</futbol>

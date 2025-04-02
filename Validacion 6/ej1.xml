@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Jose Aranega Fernandez
+Curso: 1 DAW 
+Fecha: 17/03/25 
+Ejercicio: Ejercicio 1 
+-->
+<!DOCTYPE persona [
+    <!ELEMENT persona EMPTY>
+    <!ATTLIST persona nombre CDATA #IMPLIED>
+    <!ATTLIST persona dni CDATA #IMPLIED>
+]>
+<persona dni="03141592E" />
