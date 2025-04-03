@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Jose Aranega Fernandez
+Curso: 1 DAW 
+Fecha: 17/03/25 
+Ejercicio: Ejercicio 1 
+-->
+<!DOCTYPE inventores [
+  <!ELEMENT inventores (inventor*)>
+  <!ELEMENT inventor EMPTY>
+  <!ATTLIST inventor invento CDATA #REQUIRED>
+  <!ATTLIST inventor nombre CDATA #REQUIRED>
+]>
+<inventores>
+  <inventor nombre="Robert Adler" invento="Mando a distancia" />
+  <inventor nombre="Laszlo Josef Biro" invento="Bolígrafo" />
+  <inventor nombre="Josephine Garis Cochran" invento="Lavaplatos" />
+  <inventor nombre="Anónimo" invento="Fuego" />
+</inventores>

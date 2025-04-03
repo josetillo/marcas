@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Jose Aranega Fernandez
+Curso: 1 DAW 
+Fecha: 17/03/25 
+Ejercicio: Ejercicio 1 
+-->
+<!DOCTYPE libro [
+  <!ELEMENT libro EMPTY>
+  <!ATTLIST libro autor CDATA #REQUIRED>
+]>
+<libro autor="Mario Vargas Llosa" />
